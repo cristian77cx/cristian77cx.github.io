@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cristian Pineda — AI & Data Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Cristian Pineda, Técnico en IA e Ingeniería de Datos">
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init('ZtrKfFUeAmq_tapuA');
+    })();
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BACKGROUND -->
+<div class="bg-gradient"></div>
+<div class="bg-grid"></div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <span class="logo"></span>
+    <ul>
+      <li><a href="#about">Perfil</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#experience">Stack</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <span class="status"><i class="fas fa-circle"></i> Disponible para proyectos</span>
+
+    <h1>
+      Cristian Pineda<br>
+      <span class="gradient">AI & Data Engineer</span>
+    </h1>
+
+    <p class="hero-description">
+      Técnico en procesamiento de datos, modelos de inteligencia artificial
+      y soluciones tecnológicas enfocadas en resultados reales de negocio.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn primary">
+        <i class="fas fa-rocket"></i> Ver proyectos
+      </a>
+      <a href="#contact" class="btn ghost">
+        <i class="fas fa-envelope"></i> Contacto
+      </a>
+    </div>
+    
+    <div class="hero-scroll">
+      <span>Desplázate para explorar</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="section-header">
+    <h2><i class="fas fa-user"></i> Perfil Profesional</h2>
+    <p class="section-desc">
+      Técnico en procesamiento de datos para modelos de IA, con enfoque en análisis,
+      automatización y desarrollo de soluciones inteligentes.
+    </p>
+  </div>
+
+  <div class="info-grid">
+    <div class="info-card">
+      <div class="info-icon">
+        <i class="fas fa-bullseye"></i>
+      </div>
+      <h3>Enfoque</h3>
+      <p>Data Science, Machine Learning, automatización y dashboards.</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">
+        <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <h3>Ubicación</h3>
+      <p>Cali, Colombia</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <h3>Formación</h3>
+      <p>SENA — Técnico en IA</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">
+        <i class="fas fa-briefcase"></i>
+      </div>
+      <h3>Disponibilidad</h3>
+      <p>Proyectos freelance y colaboraciones</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section glass">
+  <div class="section-header">
+    <h2><i class="fas fa-code"></i> Habilidades Técnicas</h2>
+  </div>
+  
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3><i class="fas fa-chart-line"></i> Data Science</h3>
+      <ul>
+        <li>Análisis de datos con Python</li>
+        <li>Machine Learning</li>
+        <li>Procesamiento de datos</li>
+        <li>Visualización de datos</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-database"></i> Ingeniería de Datos</h3>
+      <ul>
+        <li>Pandas & NumPy</li>
+        <li>SQL avanzado</li>
+        <li>APIs REST</li>
+        <li>ETL/ELT</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-tools"></i> Herramientas</h3>
+      <ul>
+        <li>Power BI</li>
+        <li>Git & GitHub</li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="section-header">
+    <h2><i class="fas fa-layer-group"></i> Stack Tecnológico</h2>
+  </div>
+
+  <div class="stack">
+    <span class="stack-item"><i class="fab fa-python"></i> Python</span>
+    <span class="stack-item"><i class="fas fa-table"></i> Pandas</span>
+    <span class="stack-item"><i class="fas fa-database"></i> SQL</span>
+    <span class="stack-item"><i class="fas fa-brain"></i> Machine Learning</span>
+    <span class="stack-item"><i class="fas fa-chart-bar"></i> Power BI</span>
+    <span class="stack-item"><i class="fas fa-code"></i> APIs</span>
+    <span class="stack-item"><i class="fas fa-code-branch"></i> Git</span>
+    <span class="stack-item"><i class="fas fa-server"></i> FastAPI</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="section-header">
+    <h2><i class="fas fa-project-diagram"></i> Proyectos Destacados</h2>
+  </div>
+
+  <div class="projects">
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-chart-line"></i>
+      </div>
+      <h3>Predicción de Ventas</h3>
+      <p>Modelo de machine learning para predicción de ventas empresariales con 95% de precisión.</p>
+      <div class="tags">
+        <span class="tag">ML</span>
+        <span class="tag">Python</span>
+        <span class="tag">Scikit-learn</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-tachometer-alt"></i>
+      </div>
+      <h3>Dashboard Ejecutivo</h3>
+      <p>Visualización avanzada de KPIs con datos en tiempo real y reportes automatizados.</p>
+      <div class="tags">
+        <span class="tag">Power BI</span>
+        <span class="tag">SQL</span>
+        <span class="tag">DAX</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-robot"></i>
+      </div>
+      <h3>Asistente Inteligente</h3>
+      <p>Bot de IA para automatización de atención al cliente y análisis de sentimientos.</p>
+      <div class="tags">
+        <span class="tag">IA</span>
+        <span class="tag">NLP</span>
+        <span class="tag">Python</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section glass">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2><i class="fas fa-paper-plane"></i> Contacto</h2>
+      <p>¿Interesado en colaborar o tienes un proyecto en mente?</p>
+      
+      <div class="contact-details">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>cristianpinedaps@gmail.com</p> <!-- Cambia a tu email real -->
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Ubicación</h4>
+            <p>Cali, Colombia</p>
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <i class="fas fa-clock"></i>
+          <div>
+            <h4>Disponibilidad</h4>
+            <p>Respuesta en 24 horas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form id="contact-form" class="contact-form">
+      <h3>Envíame un mensaje</h3>
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="correo" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder="Describe tu proyecto, necesidades o consulta..." rows="6" required></textarea>
+      </div>
+      <button type="submit" class="btn primary">
+        <i class="fas fa-paper-plane"></i> Enviar mensaje
+      </button>
+      <div class="form-status" id="form-status"></div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>© 2026 Cristian Pineda — AI & Data Engineer</p>
+    <div class="footer-links">
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
