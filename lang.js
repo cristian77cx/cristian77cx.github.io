@@ -59,6 +59,7 @@ const translations = {
     proj1Det1: 'En desarrollo',
     proj1Det2: 'Python & Pandas',
     proj1Btn: 'Ver Código',
+    proj1Demo: 'Demo en Vivo',
     proj2Title: 'Análisis de Datos Exploratorio',
     proj2Desc: 'Análisis exploratorio de datasets utilizando Python, Pandas y visualizaciones con Matplotlib. Identificación de patrones, tendencias y insights relevantes en los datos.',
     proj2Det1: 'En desarrollo',
@@ -144,6 +145,7 @@ const translations = {
     proj1Det1: 'In development',
     proj1Det2: 'Python & Pandas',
     proj1Btn: 'View Code',
+    proj1Demo: 'Live Demo',
     proj2Title: 'Exploratory Data Analysis',
     proj2Desc: 'Exploratory analysis of datasets using Python, Pandas and visualizations with Matplotlib. Identification of patterns, trends and relevant insights in the data.',
     proj2Det1: 'In development',
@@ -237,6 +239,9 @@ function changeLang(lang) {
   projs[0].querySelectorAll('.detail-item span')[1].textContent = t.proj1Det2;
   if (projs[0].querySelector('.project-btn')) {
     projs[0].querySelector('.project-btn').innerHTML = `<i class="fab fa-github"></i> ${t.proj1Btn}`;
+  }
+  if (projs[0].querySelector('.demo-btn')) {
+    projs[0].querySelector('.demo-btn').innerHTML = `<i class="fas fa-play-circle"></i> ${t.proj1Demo}`;
   }
   projs[1].querySelector('h3').textContent = t.proj2Title;
   projs[1].querySelector('p').textContent = t.proj2Desc;

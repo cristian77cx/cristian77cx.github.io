@@ -1032,6 +1032,25 @@ body.loading {
   font-size: 1.1rem;
 }
 
+.demo-btn {
+  background: linear-gradient(135deg, #22D3EE, #4F8CFF);
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.demo-btn:hover {
+  background: linear-gradient(135deg, #3dd5f3, #5a8fff);
+  box-shadow: 0 8px 32px rgba(34,211,238,.5);
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 4px 16px rgba(34,211,238,.3);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(34,211,238,.6);
+  }
+}
+
 .tag:hover {
   background: rgba(79,140,255,.2);
   transform: translateY(-2px);
