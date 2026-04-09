@@ -999,6 +999,39 @@ body.loading {
   transition: all 0.3s ease;
 }
 
+.project-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.9rem 1.8rem;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,.1);
+}
+
+.project-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(79,140,255,.4);
+  background: linear-gradient(135deg, #5a8fff, #3dd5f3);
+}
+
+.project-btn i {
+  font-size: 1.1rem;
+}
+
 .tag:hover {
   background: rgba(79,140,255,.2);
   transform: translateY(-2px);

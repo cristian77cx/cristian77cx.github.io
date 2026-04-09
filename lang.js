@@ -58,6 +58,7 @@ const translations = {
     proj1Desc: 'Proyecto enfocado en la limpieza, transformación y preparación de datasets para entrenar modelos de inteligencia artificial. Aplicación de técnicas de preprocesamiento y análisis exploratorio de datos.',
     proj1Det1: 'En desarrollo',
     proj1Det2: 'Python & Pandas',
+    proj1Btn: 'Ver Código',
     proj2Title: 'Análisis de Datos Exploratorio',
     proj2Desc: 'Análisis exploratorio de datasets utilizando Python, Pandas y visualizaciones con Matplotlib. Identificación de patrones, tendencias y insights relevantes en los datos.',
     proj2Det1: 'En desarrollo',
@@ -142,6 +143,7 @@ const translations = {
     proj1Desc: 'Project focused on cleaning, transformation and preparation of datasets to train artificial intelligence models. Application of preprocessing techniques and exploratory data analysis.',
     proj1Det1: 'In development',
     proj1Det2: 'Python & Pandas',
+    proj1Btn: 'View Code',
     proj2Title: 'Exploratory Data Analysis',
     proj2Desc: 'Exploratory analysis of datasets using Python, Pandas and visualizations with Matplotlib. Identification of patterns, trends and relevant insights in the data.',
     proj2Det1: 'In development',
@@ -233,6 +235,9 @@ function changeLang(lang) {
   projs[0].querySelector('p').textContent = t.proj1Desc;
   projs[0].querySelectorAll('.detail-item span')[0].textContent = t.proj1Det1;
   projs[0].querySelectorAll('.detail-item span')[1].textContent = t.proj1Det2;
+  if (projs[0].querySelector('.project-btn')) {
+    projs[0].querySelector('.project-btn').innerHTML = `<i class="fab fa-github"></i> ${t.proj1Btn}`;
+  }
   projs[1].querySelector('h3').textContent = t.proj2Title;
   projs[1].querySelector('p').textContent = t.proj2Desc;
   projs[1].querySelectorAll('.detail-item span')[0].textContent = t.proj2Det1;
