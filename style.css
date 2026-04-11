@@ -1002,6 +1002,7 @@ body.loading {
 .project-links {
   margin-top: 1.5rem;
   display: flex;
+  justify-content: center;
   gap: 1rem;
   position: relative;
   z-index: 1;
@@ -1011,13 +1012,13 @@ body.loading {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.9rem 1.8rem;
+  padding: 1rem 2.5rem;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   color: white;
   text-decoration: none;
   border-radius: 12px;
-  font-weight: 500;
-  font-size: 0.95rem;
+  font-weight: 600;
+  font-size: 1.05rem;
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255,.1);
 }
@@ -1035,11 +1036,15 @@ body.loading {
 .demo-btn {
   background: linear-gradient(135deg, #22D3EE, #4F8CFF);
   animation: pulse-glow 2s ease-in-out infinite;
+  padding: 1.1rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .demo-btn:hover {
   background: linear-gradient(135deg, #3dd5f3, #5a8fff);
   box-shadow: 0 8px 32px rgba(34,211,238,.5);
+  transform: translateY(-3px) scale(1.02);
 }
 
 @keyframes pulse-glow {
