@@ -10,11 +10,11 @@ const translations = {
     
     // Hero
     status: 'Disponible para proyectos',
-    heroSub1: 'Analista de Datos Junior',
-    heroSub2: 'Python',
-    heroSub3: 'SQL',
-    heroSub4: 'Power BI',
-    heroDesc: 'Analista de Datos con experiencia en procesamiento de datos para modelos de IA. Especializado en análisis, limpieza y visualización de información con Python, SQL y Power BI para la creación de dashboards y reportes orientados a la toma de decisiones.',
+    heroSub1: 'Analista de Datos',
+    heroSub2: 'Desarrollador de Software',
+    heroSub3: 'Python',
+    heroSub4: 'SQL',
+    heroDesc: 'Analista de Datos y Desarrollador de Software con experiencia en procesamiento de datos para modelos de IA. Especializado en desarrollo con Python, análisis de datos, limpieza y visualización de información con SQL y Power BI para la creación de dashboards, reportes y soluciones de software orientadas a la toma de decisiones.',
     stat1: 'Año de experiencia',
     stat2: 'Lenguaje principal',
     stat3: 'Proyectos activos',
@@ -95,11 +95,11 @@ const translations = {
     
     // Hero
     status: 'Available for projects',
-    heroSub1: 'Junior Data Analyst',
-    heroSub2: 'Python',
-    heroSub3: 'SQL',
-    heroSub4: 'Power BI',
-    heroDesc: 'Data Analyst with experience in data processing for AI models. Specialized in analysis, cleaning and visualization of information with Python, SQL and Power BI for creating dashboards and reports oriented to decision making.',
+    heroSub1: 'Data Analyst',
+    heroSub2: 'Software Developer',
+    heroSub3: 'Python',
+    heroSub4: 'SQL',
+    heroDesc: 'Data Analyst and Software Developer with experience in data processing for AI models. Specialized in Python development, data analysis, cleaning and visualization with SQL and Power BI for creating dashboards, reports and software solutions oriented to decision making.',
     stat1: 'Year of experience',
     stat2: 'Main language',
     stat3: 'Active projects',
@@ -167,7 +167,7 @@ const translations = {
     contactBtn: 'Send message',
     
     // Footer
-    footer: 'Junior Data Analyst'
+    footer: 'Analista de Datos & Desarrollador de Software'
   }
 };
 
