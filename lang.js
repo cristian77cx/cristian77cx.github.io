@@ -10,11 +10,11 @@ const translations = {
     
     // Hero
     status: 'Disponible para proyectos',
-    heroSub1: 'Analista de Datos',
-    heroSub2: 'Desarrollador de Software',
+    heroSub1: 'Desarrollador de Software',
+    heroSub2: 'Analista de Datos',
     heroSub3: 'Python',
     heroSub4: 'SQL',
-    heroDesc: 'Analista de Datos y Desarrollador de Software con experiencia en procesamiento de datos para modelos de IA. Especializado en desarrollo con Python, análisis de datos, limpieza y visualización de información con SQL y Power BI para la creación de dashboards, reportes y soluciones de software orientadas a la toma de decisiones.',
+    heroDesc: 'Desarrollador de Software y Analista de Datos especializado en crear soluciones con Python. Experiencia en desarrollo de aplicaciones, procesamiento de datos para IA, análisis exploratorio y visualización con SQL y Power BI. Enfocado en transformar datos en decisiones estratégicas mediante código limpio y eficiente.',
     stat1: 'Año de experiencia',
     stat2: 'Lenguaje principal',
     stat3: 'Proyectos activos',
@@ -95,11 +95,11 @@ const translations = {
     
     // Hero
     status: 'Available for projects',
-    heroSub1: 'Data Analyst',
-    heroSub2: 'Software Developer',
+    heroSub1: 'Software Developer',
+    heroSub2: 'Data Analyst',
     heroSub3: 'Python',
     heroSub4: 'SQL',
-    heroDesc: 'Data Analyst and Software Developer with experience in data processing for AI models. Specialized in Python development, data analysis, cleaning and visualization with SQL and Power BI for creating dashboards, reports and software solutions oriented to decision making.',
+    heroDesc: 'Software Developer and Data Analyst specialized in creating solutions with Python. Experience in application development, data processing for AI, exploratory analysis and visualization with SQL and Power BI. Focused on transforming data into strategic decisions through clean and efficient code.',
     stat1: 'Year of experience',
     stat2: 'Main language',
     stat3: 'Active projects',
